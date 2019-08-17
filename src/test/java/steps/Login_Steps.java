@@ -21,7 +21,7 @@ public class Login_Steps {
     }
 
     @When("User enters correct login credentials")
-    public void admin_enters_valid_credentials_as_administrator() {
+    public void user_enters_correct_login_credentials() {
 
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
@@ -32,7 +32,7 @@ public class Login_Steps {
     }
 
     @When("User is displayed as the current user of the CybertekTraining Website")
-    public void admin_is_displayed_as_the_current_user_of_the_CybertekTraining_Website() {
+    public void user_is_displayed_as_the_current_user_of_the_CybertekTraining_Website() {
 
         Assert.assertTrue(mainPage.getCurrentPageUsername.getText().equals("Admin"));
     }
