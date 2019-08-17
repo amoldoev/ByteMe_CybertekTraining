@@ -15,7 +15,7 @@ public class Login_Steps {
     MainPage mainPage = new MainPage();
 
     @When("User is on CybertekTraining Website")
-    public void admin_is_on_CybertekTraining_Website() {
+    public void user_is_on_CybertekTraining_Website() {
         //User navigates to the login page
         Driver.getDriver().get(Config.getProperty("cybertekTrainingUrl"));
     }

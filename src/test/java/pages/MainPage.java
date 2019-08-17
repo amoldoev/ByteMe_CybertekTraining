@@ -16,14 +16,17 @@ public class MainPage {
         @FindBy(xpath = "//div[@id = 'sidebar']//ul/li[3]/a")
         public static WebElement getTeachersLink;
 
-        @FindBy(linkText = "All Teacher")
-        public  WebElement allTeachers;
+        @FindBy(linkText = "All Teachers")
+        public static WebElement getAllTeachers;
 
         @FindBy(linkText = "Add Teacher")
         public static WebElement getAddTeacherLink;
 
         @FindBy(xpath = "//div[@id = 'sidebar']//ul/li[4]/a")
         public static WebElement getStudentsLink;
+
+        @FindBy(linkText = "All Students")
+        public static WebElement getAllStudents;
 
         @FindBy(linkText = "Add Student")
         public static WebElement getAddStudentLink;

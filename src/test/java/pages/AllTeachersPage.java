@@ -20,7 +20,7 @@ public class AllTeachersPage {
     public WebElement searchButton;
 
     @FindBy(xpath = "//div[@class='dropdown profile-action']")
-    public WebElement threeDots;
+    public WebElement options;
 
     @FindBy(xpath = "//a[@data-target='#delete_employee']")
     public WebElement delete;
