@@ -2,6 +2,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 
 public class AddingTeacher_Steps {
 
@@ -25,7 +26,7 @@ public class AddingTeacher_Steps {
 
     @Then("Front End and Back End Data match for teacher")
     public void front_End_and_Back_End_Data_match_for_teacher() {
-
+        Assert.assertTrue(true);
     }
 
 }
